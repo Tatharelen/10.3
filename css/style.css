@@ -1,0 +1,26 @@
+body {
+	background-color: #ccc;
+}
+
+#carousel {
+	margin-left: 35%;
+	width: 400px;
+	height: 300px;
+	border: 10px solid yellow;
+	overflow: hidden;
+}
+
+#carousel > ul {
+	width: 2000px;
+	padding: 0;
+	margin: 0;
+}
+
+ul > li {
+	width: 400px;
+	height: 300px;
+	list-style: none;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
